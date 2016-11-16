@@ -1,10 +1,10 @@
-(function(global){
+(function(global) {
     System.config({
-        paths:{
-            'npm' : 'node_modules/'
+        paths: {
+            'npm:': 'node_modules/'
         },
-        map:{
-            app:'app',
+        map: {
+            app: 'app',
             '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
             '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
             '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
@@ -17,17 +17,18 @@
             'rxjs': 'npm:rxjs',
             'angular-in-memory-web-api': 'npm:angular-in-memory-web-api'
         },
-        packages:{
-            app:{
-                main: '.main.js',
+        
+        packages: {
+            app: {
+                main: './main.js',
                 defaultExtension: 'js'
             },
             rxjs: {
                 defaultExtension: 'js'
             },
-            'angular-in-memory-web-api':{
+            'angular-in-memory-web-api': {
                 main: './index.js',
-                defaultExtension: 'js' 
+                defaultExtension: 'js'
             }
         }
     });
