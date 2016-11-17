@@ -1,2 +1,2 @@
-# angular2-skeleton
-My Angular 2 Skelton Project 2016
+# angular2-Task Card App
+My Angular 2 Task Card App
